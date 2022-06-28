@@ -14,9 +14,10 @@ MaterialApp(
 
 ```dart
 Scaffold(
-  backgroundColor:  ,
+  backgroundColor: Colors.red,
   appBar: AppBar(
     title: Text('Title'),
+    centerTitle: true,
   ),
   body: <Widget?>,
 )
