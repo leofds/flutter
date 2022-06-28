@@ -10,6 +10,18 @@ MaterialApp(
 )
 ```
 
+## Scaffold & AppBar
+
+```dart
+Scaffold(
+  backgroundColor:  ,
+  appBar: AppBar(
+    title: Text('Title'),
+  ),
+  body: <Widget?>,
+)
+```
+
 ## Text
 
 ```dart
