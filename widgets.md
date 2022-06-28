@@ -69,3 +69,14 @@ Row(
   children: , <Widget?>[]
 )
 ```
+
+## Expanded
+
+Ocupa todo o espaço disponível, como a máxima largura disponivel, assim não preciso definir um tamanho fixo com o SizedBox
+
+```dart
+Expanded(
+  child: <Widget?>,
+  flex:	2  // peso, agora o filho tem duas vezes o tamanho, no caso de estar em	uma row com mais um Expanded
+)
+```
