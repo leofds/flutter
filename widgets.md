@@ -72,7 +72,7 @@ Row(
 
 ## Expanded
 
-Ocupa todo o espaço disponível, como a máxima largura disponivel, assim não preciso definir um tamanho fixo com o SizedBox
+Ocupa todo o espaço disponível, como a máxima largura disponivel
 
 ```dart
 Expanded(
