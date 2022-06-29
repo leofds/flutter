@@ -80,3 +80,14 @@ Expanded(
   flex:	2  // peso, agora o filho tem duas vezes o tamanho, no caso de estar em	uma row com mais um Expanded
 )
 ```
+
+## Padding
+
+Adiciona espacamento em volta de um widget
+
+```dart
+Padding(
+  padding: EdgeInsets.all(32),
+  child: <Widget?>
+)
+```
