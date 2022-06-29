@@ -45,8 +45,8 @@ Container(
   child: <Widget?>,
   width: 50,
   height: 100,    // se não for definido um tamanho ele se auto ajusta ao conteúdo
-  padding: ,      // espeçamento dentro do container
-  margin: ,       // semelhante ao padding porém faz o afastamento fora do container
+  padding: EdgeInsets.all(10.0),      // espeçamento dentro do container
+  margin: EdgeInsets.only(left: 10),       // semelhante ao padding porém faz o afastamento fora do container
 )
 ```
 
