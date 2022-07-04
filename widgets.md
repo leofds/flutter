@@ -93,3 +93,47 @@ Padding(
   child: <Widget?>
 )
 ```
+
+## SizedBox
+
+Cria um widget invisível, adiciona um espeçamento em uma lista, também permite aumentar a altura do botão, colocando o botão como filho e definindo o height.
+
+```dart
+SizedBox(
+  width: 64,
+  height: 32,
+  child: <Widget?>
+)
+```
+
+## Divider
+
+Divisão entre enementos
+
+```dart
+Divider(),
+```
+
+## Center
+
+Cntraliza o filho no espaço disponível
+
+```dart
+Center(
+  child: <Widget?>
+)
+```
+
+## TextButton
+
+```dart
+TextButton(
+  onPressed: (){},
+  style: TextButton.styleFrom(
+    primary: Colors.black,              // Ao clicar o efeito do botão fica com uma cor preta
+    backgroundColor: Colors.white,
+    fixedSize: const Size(100, 100),    // Cuidade pois não irá redimencionar
+  ),
+  child: <Widget?>
+)
+```
