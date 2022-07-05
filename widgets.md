@@ -161,6 +161,12 @@ ElevatedButton(
 
 ## TextField
 
+Controlador
+
+```dart
+final emailController = TextEditingController();
+```
+
 ```dart
 TextField(
   controller: emailController,		// Especificando um TextEditingController atributo da classe
@@ -187,3 +193,5 @@ TextField(
   onChanged: (text){},                  // Ao mudar o conteúdo
 )
 ```
+
+
