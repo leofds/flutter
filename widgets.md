@@ -161,10 +161,8 @@ ElevatedButton(
 
 ## TextField
 
-Controlador
-
 ```dart
-final emailController = TextEditingController();
+final emailController = TextEditingController();    // Controlador do TextField
 ```
 
 ```dart
