@@ -137,3 +137,46 @@ TextButton(
   child: <Widget?>
 )
 ```
+
+## ElevatedButton
+
+```dart
+ElevatedButton(
+  onPressed: (){},
+  child: <Widget?>,
+  style: ElevatedButton.styleFrom(
+    primary: Colors.purple,
+    fixedSize: Size(100, 200),      // define um tamanho fixo
+    padding: EdgeInsets.all(32)     // espaçamento
+  ),
+)
+```
+
+## TextField
+
+```dart
+TextField(
+  controller: emailController,		// Especificando um TextEditingController atributo da classe
+  decoration: InputDecoration(
+    labelText: 'E-mail',
+    hintText: 'exemplo@exemplo.com',
+    border: OutlineInputBorder(),    // InputBorder.none
+    errorText: 'Campo obrigatório',  // ou null
+    prefixText: 'R\$ ',              // Text prefixado no início da caixa de texto
+    suffixText: 'cm',                // Text prefixado no final da caixa de texto
+    labelStyle: TextStyle(
+      fontSize: 40,
+      color: Color(0xff00d7f3),
+    ),
+  )
+  obscureText: true,                    // oculta os caracteres
+  obscuringCharacter: 's',              // define o caracter a exibir
+  keyboardType: TextInputType.number,   // typo do teclado exibido
+  style: TextStyle(
+    fontSize: 20,
+    fontWeight: FontWeight.w700,
+    color: Colors.purple
+  ),
+  onChanged: (text){},                  // Ao mudar o conteúdo
+)
+```
