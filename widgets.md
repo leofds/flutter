@@ -49,6 +49,13 @@ Container(
   height: 100,    // se não for definido um tamanho ele se auto ajusta ao conteúdo
   padding: EdgeInsets.all(10.0),      // espeçamento dentro do container
   margin: EdgeInsets.only(left: 10),       // semelhante ao padding porém faz o afastamento fora do container
+  decoration: BoxDecoration(
+    image: DecorationImage(
+      image: NetworkImage('https://'),              // imagem da internet
+      image: AssetImage('assets/images/img.png'),   // imagem da pasta
+      fit: BoxFit.fill
+    ),
+  ),
 )
 ```
 
