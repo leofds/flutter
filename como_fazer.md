@@ -1,5 +1,13 @@
 # Como fazer
 
+## Atualizar um Widget stateFul
+
+```dar
+setState((){ 
+  
+});
+```
+
 ## TextField bordas arredondadas
 
 ```dart
