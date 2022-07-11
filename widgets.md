@@ -228,3 +228,9 @@ Verificando se o form é válido
 ```dart
 if(_formKey.currentState!.validate()) {
 ```
+
+## Image
+
+```dart
+Image(image: AssetImage('assets/images/person.png'), height: 200),
+```
