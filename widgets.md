@@ -192,4 +192,39 @@ TextField(
 )
 ```
 
+## Form
 
+Criando uma chave para o form
+
+```dart
+GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+```
+
+Criando o form com a chave
+
+```dart
+Form (
+  key: _formKey,
+  child: TextFormField(),
+)
+```
+
+## TextFormField
+
+Semelhante ao TextField mas, possui a propriedade validator, desde que esteja dentro de um Form para validar chamar _formKey.currentState!.validate()
+
+```dart
+TextFormField(
+  validator: (value) {
+    if( <invalido> ){
+      return "Informe o valor";  // Mensagem a ser exibida em vermelho em baixo da caixa caso a validação falhe
+    }
+  }
+)
+```
+
+Verificando se o form é válido
+
+```dart
+if(_formKey.currentState!.validate()) {
+```
