@@ -251,7 +251,7 @@ Um item da lista, limita as informações exibidas
 
 ```dart
 ListTile(
-  title: 	Text('Tarefa 1'),
+  title: Text('Tarefa 1'),
   subtitle: Text('20/11/2022'),
   leading: Icon(Icons.save, size: 30,),
   onTap: (){
