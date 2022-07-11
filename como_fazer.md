@@ -21,3 +21,9 @@ ElevatedButton(
       shape: StadiumBorder(), primary: Colors.orange),
 ),
 ```
+
+## Esconder o teclado
+
+```dart
+FocusScope.of(context).requestFocus(FocusNode());
+```
