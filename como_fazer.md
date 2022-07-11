@@ -2,7 +2,7 @@
 
 ## Atualizar um Widget stateFul
 
-```dar
+```dart
 setState((){ 
   
 });
