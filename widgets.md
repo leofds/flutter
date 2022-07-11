@@ -234,3 +234,28 @@ if(_formKey.currentState!.validate()) {
 ```dart
 Image(image: AssetImage('assets/images/person.png'), height: 200),
 ```
+
+## ListView
+
+Exibe lista. Também serve para mostrar itens na vertical em tela pequena. Tudo o que for colocado dentro do lista vai ocupar o maximo espaco horizontal. Pode estar dentro de um SizedBox para limitar o tamanho verticale criar o scroll automatico.
+
+```dart
+ListView(
+  children: <Widget?>[]
+)
+```
+
+## ListTile
+
+Um item da lista, limita as informações exibidas
+
+```dart
+ListTile(
+  title: 	Text('Tarefa 1'),
+  subtitle: Text('20/11/2022'),
+  leading: Icon(Icons.save, size: 30,),
+  onTap: (){
+    print('tarefa 1');
+  },
+)
+```
