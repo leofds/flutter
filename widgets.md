@@ -259,3 +259,17 @@ ListTile(
   },
 )
 ```
+
+## ListView.buider
+
+Cria uma lista que é construída conforme ele for aparecendo (sob demanda), não consome recursos
+
+```dart 
+ListView.builder(
+  padding: EdgeInsets.only(top: 10.0),
+  itemCount: _todoList.length,
+  itemBuilder: (context, index){
+    return <Widget>;
+  }
+)
+```
