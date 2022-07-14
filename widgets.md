@@ -286,3 +286,87 @@ ListView.builder(
   }
 )
 ```
+
+## Card
+
+```dart
+Card(
+  child: Container(
+    height: 100,
+  ),
+),
+```
+
+## IconButton
+
+```dart
+IconButton(
+  onPressed: (){},
+  icon: Icon(Icons.photo_camera)
+)
+```
+
+## Icon
+
+```dart
+Icon(
+  Icons.add,
+  size: 30,
+  color: Colors.black
+)
+```
+
+## Align
+
+Alinha um Widget que naturalmente ficaria alinhado
+
+```dart
+Align(
+  alignment: Alignment.centerRight,
+  child: Icon(Icons.delete, color: Colors.black,),
+)
+```
+
+## Switch
+
+```dart
+boo sw = true;    // atributo
+
+Switch(
+  value: sw,
+  onChanged: (value) {
+    setState(() {
+      sw = value;
+    });
+  },
+),
+```
+
+## Checkbox
+
+https://api.flutter.dev/flutter/material/Checkbox-class.html
+
+```dart
+bool cb = true;   // atributo
+
+Checkbox(
+  value: cb,
+  onChanged: (bool? value) {
+    setState(() {
+      cb = value!;
+    });
+  },
+)
+```
+
+## GestureDetector
+
+Torna im Widget clicável
+
+``dart
+GestureDetector(
+  child: <Widget?>,
+  onTap: (){},
+  onLongPress: (){}
+)
+```
