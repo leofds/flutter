@@ -38,6 +38,18 @@ Text(
 )
 ```
 
+Definindo o comportamento quando o text é maior do que área disponível
+
+```dart
+Expanded(
+  child: Text(
+    'Frase longa',
+    maxLines: 1,
+    overflow: TextOverflow.ellipsis,
+  ),
+)
+```
+
 ## Container
 
 ```dart
@@ -152,9 +164,10 @@ ElevatedButton(
   onPressed: (){},
   child: <Widget?>,
   style: ElevatedButton.styleFrom(
-    primary: Colors.purple,
+    primary: Colors.purple,         // cor do botão
     fixedSize: Size(100, 200),      // define um tamanho fixo
-    padding: EdgeInsets.all(32)     // espaçamento
+    padding: EdgeInsets.all(32),    // espaçamento
+    shape: StadiumBorder(),         // borda redonda
   ),
 )
 ```
