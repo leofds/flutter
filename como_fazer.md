@@ -1,5 +1,16 @@
 # Como fazer
 
+## Implementar o initState
+
+Método executado uma única vez quando após a criação do widget
+
+```dart
+@override
+void initState() {
+
+}
+```
+
 ## Atualizar um Widget stateFul
 
 ```dart
